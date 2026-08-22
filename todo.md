@@ -1,0 +1,23 @@
+# Project TODO
+
+- [x] Establish Scribe domain models, typed database schema, and safe appointment-status vocabulary.
+- [x] Add database migrations for services, barbers, availability, and appointments with collision protection.
+- [x] Build the responsive public Scribe landing page with a premium liquid-glass bento visual system.
+- [x] Build OAuth-aware client account states and authenticated booking entry points.
+- [x] Implement service, barber, date, and 30-minute time-slot selection with typed tRPC procedures.
+- [x] Persist appointments with transactional conflict handling and graceful client errors.
+- [x] Create a protected admin route using the supplied dashboard shell and role-based access.
+- [x] Add admin appointment management, availability scheduling, and daily/weekly/monthly INR revenue summaries.
+- [x] Add an admin-only manual appointment flow for existing signed-in client records.
+- [x] Add Vitest coverage for booking conflict prevention, appointment-state changes, and revenue summaries.
+- [x] Verify responsive layouts and key workflows, then create a delivery checkpoint.
+- [x] Store the supplied admin username and password as server-only secrets.
+- [x] Add a credential-gated admin access session while retaining OAuth admin-role checks.
+- [x] Verify invalid and valid credential paths, then save the updated checkpoint.
+- [x] Verify the new landing-page editorial copy and add the requested scissor hover animation.
+- [x] Validate the revised landing page and save the updated checkpoint.
+- [x] Add secure bulk controls to open or close all unbooked slots for a selected barber and day.
+- [x] Add clear day-level availability actions to the admin schedule and verify the updated workflow.
+- [x] Move the public admin-login entry to the landing-page footer for desktop and mobile.
+- [x] Add a real-time barbershop availability indicator to the landing page.
+- [x] Verify the footer-level admin-login placement and save the updated checkpoint.
